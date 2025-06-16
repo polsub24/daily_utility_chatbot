@@ -6,9 +6,8 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Welcome to Our Chatbot Page</h1>
-      <p>Ask us anything!</p>
-
+      <h1>My Everyday ChatBot</h1>
+      <p></p>
       {/* WotNot iframe */}
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center' }}>
         <iframe
@@ -23,6 +22,5 @@ function App() {
     </div>
   );
 }
-
 export default App;
 
